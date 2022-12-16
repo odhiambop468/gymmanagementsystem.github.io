@@ -1,0 +1,156 @@
+﻿:root{
+	--main-color: #f73471;
+	--black: #000;
+	--light-color; #868e96;
+}
+*{
+	font-family: 'poppins' , sans-seerif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+	text-transform: capitalize;
+	transition: all .2s linear;
+
+}
+
+
+::selection{
+	background: var(--main-color);
+	color: #fff;
+}
+html{
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+	scroll-padding-top: 7rem;
+}
+html::-webkit-scrollbar{
+	width: 1rem;
+}
+html::-webkit-scrollbar-track{
+	background: #afafaf;
+}
+html::-webkit-scrollbar-thumb{
+	background: var(--main-color);
+	border-radius: 5rem;
+}
+section{
+	padding: none;
+}
+
+body{
+background-color: purple;
+background-repeat: none;
+
+
+
+}
+.heading{
+	font-size: 4rem;
+	text-align: center;
+	padding-top: 4rem;
+	padding-bottom: 2rem;
+	color: var(--black);
+	text-transform: uppercase;
+}
+.heading .span{
+	text-transform: uppercase;
+	color: var(--main-color);
+}
+.btn{
+	margin-top: 1rem;
+	display: inline-block;
+	padding: .8rem 3rem;
+	background: #fff;
+	font-weight: 500;
+	cursor: pointer;
+	color: var(--main-color); 
+	font-size: 1.7rem;
+}
+.btn:hover{
+	background: var(--main-color);
+	color: #fff;
+	left-spacing: .1rem;
+}
+
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 3rem 9%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: rgba(255,255,255,.1);
+	box-shadow: 0rem, .1rem .5rem rgba(0,0,0,.1);
+	z-index: 1000;
+}
+.header .logo{
+	font-size: 2.5rem;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+}
+.header .logo span{
+	color: var(--main-color);
+	text-transform: uppercase;
+}
+.header .navbar a{
+	font-size: 1.7rem;
+	color: #fff;
+	margin: 0 1rem;
+}
+.header .navbar a:hover{
+	color:: var(--main-color);
+}
+.header .icons div{
+	font-size: 2.5rem;
+	color: #222;
+	padding: .5rem;
+	cursor: pointer;
+	margin-left: 1rem;
+}
+.header .icons div:hover{
+	transform: rotate(180deg);
+	color: var(--main-color);
+}
+.header .icon a{
+	font-size: 1.5rem;
+	letter-spacing: .1rem;
+	color: #fff;
+	background: var(--main-color); 
+	font-weight: 500;
+	text-transform: uppercase;
+	padding: .8rem 2rem;
+	border: none;	 
+}
+.header .icons a:hover{
+	color: var(--main-color);
+	background: #fff;
+
+}
+#menu-btn{
+	display: none;
+}
+.header .active{
+	padding: 2rem 9%;
+	background: rgba(0,0,0,.9);
+}
+
+span{
+	color: grey;
+}
+.main{
+	margin-top: 200px;
+	left: 20%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size: 100%;
+	color: white;
+}
+
